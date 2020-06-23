@@ -1,13 +1,29 @@
 .headline {
     color: darkgreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.sub-headline {
-
+    font-family: Georgia;
 }
 div.visual-titles {
 text-align: center;
 }
-.parent > p {
-    line-height: 25px;
+div.image {
+    float: left;
+    padding: 8px;
+
 }
+p {
+    line-height: 25px;
+    font-style: normal;font-weight: bold;
+}
+a:link {
+   text-decoration: none;
+}
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+a:active {
+      text-decoration: underline;
+  }
+* {font-family: Georgia, 'Times New Roman', Times, serif;}
