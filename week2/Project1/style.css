@@ -1,0 +1,13 @@
+.headline {
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sub-headline {
+
+}
+div.visual-titles {
+text-align: center;
+}
+.parent > p {
+    line-height: 25px;
+}
