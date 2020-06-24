@@ -1,0 +1,27 @@
+.title {
+    color: blue;
+    text-align: center;
+}
+a:link {
+    color: deepskyblue;
+    
+}
+.one { 
+    border-style: solid;
+   
+}
+h1{
+    text-align: center;
+}
+.nav {
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+.text{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: monospace;
+    margin: 20px;
+}
+
