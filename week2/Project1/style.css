@@ -1,14 +1,12 @@
-.headline {
+#headline {
     color: darkgreen;
     font-family: Georgia;
 }
-div.visual-titles {
-text-align: center;
-}
+
 div.image {
     float: left;
     padding: 8px;
-
+    
 }
 p {
     line-height: 25px;

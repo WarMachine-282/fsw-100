@@ -3,7 +3,7 @@
     text-align: center;
 }
 a:link {
-    color: deepskyblue;
+    text-decoration-color: deepskyblue;
     
 }
 .one { 
@@ -13,10 +13,9 @@ a:link {
 h1{
     text-align: center;
 }
-.nav {
-    background-color: blue;
-    width: 100vw;
-    height: 10vh;
+.main-navbar {
+    position: relative;
+    background-color: gray;
 }
 .text{
     color: rgb(0, 0, 0);
