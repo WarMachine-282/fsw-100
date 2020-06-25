@@ -2,6 +2,21 @@
     color: blue;
     text-align: center;
 }
+.main-navbar {
+    position: relative;
+    background-color: gray;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 a:link {
     text-decoration-color: deepskyblue;
     
@@ -13,10 +28,7 @@ a:link {
 h1{
     text-align: center;
 }
-.main-navbar {
-    position: relative;
-    background-color: gray;
-}
+
 .text{
     color: rgb(0, 0, 0);
     font-size: 25px;
