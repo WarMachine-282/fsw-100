@@ -1,0 +1,62 @@
+.navbar {
+    background-color: indigo;
+    position: top;
+    min-height:6rem;
+    top: 0;
+    width: 100%; 
+}
+
+a{
+    color: lavender;
+    margin-left: 10px;
+    padding-top: 100px;
+}
+.image {
+    margin-left: 50px;
+    
+}
+.blog{
+ border: 5px solid black;
+ height: 302px;
+ background-color: lightgrey ;
+ max-height: fit-content;
+ font-size: 20px;
+
+}
+#source-one {
+    border: 6px solid black;
+    max-width: 35%;
+    max-height: 40%;
+    position: absolute;
+    top:188px;
+}
+#source-two {
+    border: 6px solid black;
+    max-width: 30%;
+    max-height: 40%;
+    position: absolute;
+    top:500px;
+}
+#source-three {
+    border: 6px solid black;
+    max-width: 120%;
+    max-height: 39.5%;
+    position: absolute;
+    top: 809px;
+}
+h2 {
+    margin-left: 40%;
+}
+h5 {
+    float: right;
+    position: relative;
+}
+h6 {
+    margin-left: 50%;
+}
+.header {
+    float: right;
+}
+p{
+    margin-left: 33%;
+}
