@@ -5,7 +5,7 @@
     top: 0;
     width: 100%;
     border: 5px solid black; 
-    padding: 25px;
+    padding: 20px;
     margin: 5px;
     text-align: center;
 }
@@ -28,33 +28,37 @@ h3 {
 h4 {
     font-family: 'anton', 'Orbitron', sans-serif;
 }
-footer {
+.footer {
     max-height: 10%;
     bottom: 0;
-    position: fixed;
+    position: bottom, fixed;
     background-color:gray;
     width: 100%;
     text-align: center;
 }
-box-left {
-    background-color:black;
-    margin-top: 17%;
-    margin-left: 1%;
-    text-align:right;
-    max-width: 48%;
-    display: inline-block;
-}
+
 header {
     font-size: 40px;
 }
-box-center {
-    margin-top: 17%;
-    margin-left: 2%;
-    text-align: center;
-    display: inline-block;
-    background-color: lightseagreen;
-    max-width: 24%;
-}
+
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid;
   }
+box-right {
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 5px;
+    text-align: left;
+    background-color: lightseagreen;
+    max-width: 25%;
+    display: inline-block;
+    
+}
+box-left {
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align:right;
+    max-width:  50%;
+    display: inline-block;
+}
