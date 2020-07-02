@@ -1,0 +1,119 @@
+.one {
+background-color: #F5C6D6;
+width: 82.8vw;
+height: 20vh;
+margin-left: 10px;
+}
+.two {
+background-color: #EE2E84;
+width: 20vw;
+height: 20vh;
+display: inline-block;
+margin-top: 10px;
+margin-left: 10px;
+}
+.three {
+background-color: #EE2E84;
+width: 20vw;
+height: 20vh;
+display: inline-block;
+margin-top: 10px;
+margin-left: 10px;
+}
+.four {
+background-color: #EE2E84;
+width: 20vw;
+height: 20vh;
+display: inline-block;
+margin-top: 10px;
+margin-left: 10px;
+}
+.five {
+background-color: #EE2E84;
+width: 20vw;
+height: 20vh;
+display: inline-block;
+margin-top: 10px;
+margin-left: 10px;
+}
+.six {
+background-color: #85CFD8;
+width: 40.9vw;
+height: 20vh;
+display: inline-block;
+margin-left: 10px;
+margin-top: 10px;
+}
+.seven {
+    background-color: #85CFD8;
+    width: 40.9vw;
+    height: 20vh;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.eight {
+background-color: #8DC63F;
+width: 62vw;
+height: 20vh;
+display: inline-block;
+margin-left: 10px;
+margin-top: 10px;
+}
+.nine {
+background-color: #E76E34;
+width: 20vw;
+height: 20vh;
+display: inline-block;
+margin-left: 10px;
+margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+    div.one {
+       width: 82.8vw;
+       height: 10vh;
+    }
+}
+@media screen and (max-width: 768px){
+    div.two {
+        width: 82.8vw;
+        height: 10vh;
+    }
+}@media screen and (max-width: 768px){
+    div.three {
+       width: 82.8vw;
+       height: 10vh;
+    }
+}
+@media screen and (max-width: 768px){
+    div.four {
+        width: 82.8vw;
+        height: 10vh;
+    }
+}@media screen and (max-width: 768px){
+    div.five {
+       width: 82.8vw;
+       height: 10vh;
+    }
+}
+@media screen and (max-width: 768px){
+    div.six {
+        width: 82.8vw;
+        height: 10vh;
+    }
+}@media screen and (max-width: 768px){
+    div.seven {
+        width: 82.8vw;
+        height: 10vh;
+    }
+}@media screen and (max-width: 768px){
+    div.eight {
+        width: 82.8vw;
+        height: 10vh;
+    }
+}@media screen and (max-width: 768px){
+    div.nine {
+        width: 82.8vw;
+        height: 10vh;
+    }
+}
