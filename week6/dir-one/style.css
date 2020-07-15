@@ -92,7 +92,7 @@ h3 {
 }
 #box3 {
     background-color: #A18276;
-    display: inline-flex;
+    display: inline-grid;
     border: #F0F66E solid 5px;
     height: 50px;
     /* grid-column: 3 / 0; */
