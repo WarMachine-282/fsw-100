@@ -26,7 +26,7 @@ html {
  .navbar {
     overflow: hidden;
     background-color: #333;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     grid-column: 1 / 4;
 }
  .navbar a {
@@ -90,44 +90,214 @@ h1 {
     font-family: 'Homemade Apple', cursive;
     text-align: center;
 }
+h3 {
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    /* margin-top: 75px; */
+    margin-left: 15px;
+    font-family: 'Homemade Apple', cursive;
+}
+h3:hover {
+    background-color: #333;
+}
 hr {
     width: 100%;
     height: 80px;
     background-color: black;
 }
-.one {
-    display: grid;
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay5 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay6 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay7 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+.overlay8 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    float: left;
+    margin-left: 0px;
+    width: 345px;
+    height: 360px;
+    object-fit: cover;
+}
+#one {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
+    justify-content: center;
     height: 360px;
     grid-column: 1 / 2;
     grid-row: 1;
+    transition-duration: 500ms;
 }
-.two {
-    display: grid;
+#one:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    transition-duration: 500ms;
+}
+#one:hover .overlay {
+    opacity: 50%;
+  }
+#two {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     height: 360px;
     grid-column: 2;
     grid-row: 1;
 }
-.three {
-    display: grid;
+#two:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:2;
+    grid-row: 1;
+    transition-duration: 500ms;
+}
+#two:hover .overlay2 {
+    opacity: 50%;
+}
+#three {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     height: 360px;
     grid-column: 3;
     grid-row: 1;
 }
-.four {
-    display: grid;
+#three:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:3;
+    grid-row: 1;
+    transition-duration: 500ms;
+}
+#three:hover .overlay3 {
+    opacity: 50%;
+}
+#four {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     height: 360px;
     grid-column: 4;
     grid-row: 1;
-}.five {
-    display: grid;
+}
+#four:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:4;
+    grid-row: 1;
+    transition-duration: 500ms;
+}
+#four:hover .overlay4 {
+    opacity: 50%;
+}
+#five {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     margin-top: 50px;
@@ -135,8 +305,21 @@ hr {
     grid-column: 4;
     grid-row: 2;
 }
-.six {
-    display: grid;
+#five:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:4;
+    grid-row: 2;
+    transition-duration: 500ms;
+}
+#five:hover .overlay5 {
+    opacity: 50%;
+}
+#six {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     margin-top: 50px;
@@ -144,8 +327,21 @@ hr {
     grid-column: 3;
     grid-row: 2;
 }
-.seven {
-    display: grid;
+#six:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:3;
+    grid-row: 2;
+    transition-duration: 500ms;
+}
+#six:hover .overlay6 {
+    opacity: 50%;
+}
+#seven {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     margin-top: 50px;
@@ -153,14 +349,40 @@ hr {
     grid-column: 2;
     grid-row: 2;
 }
-.eight {
-    display: grid;
+#seven:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:2;
+    grid-row: 2;
+    transition-duration: 500ms;
+}
+#seven:hover .overlay7 {
+    opacity: 50%;
+}
+#eight {
+    display: inline-flex;
     background-color: #BFCBC2;
     border: white groove 15px;
     margin-top: 50px;
     height: 360px;
     grid-column: 1;
     grid-row: 2;
+}
+#eight:hover {
+    background-color: #333;
+    display: inline-flex;
+    border: #333 groove 15px;
+    justify-content: center;
+    height: 360px;
+    grid-column:1;
+    grid-row: 2;
+    transition-duration: 500ms;
+}
+#eight:hover .overlay8 {
+    opacity: 50%;
 }
 .nine {
     display: grid;
@@ -177,19 +399,19 @@ img {
 .anchor-two {
     color:#BFCBC2 ;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     padding: 15px;
 }
 .anchor-three {
     color:#BFCBC2 ;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     padding: 15px;
 }
  footer {
     color:#BFCBC2;
     background-color: #333;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     height: 8vh; 
     display: flex;
     justify-content: space-evenly;

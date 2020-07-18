@@ -26,6 +26,9 @@
     font-family: 'Homemade Apple', cursive;
     text-align: center;
 }
+h6 {
+    font-family: 'Open Sans Condensed';
+}
  hr {
     width: 100%;
     height: 80px;
@@ -54,7 +57,7 @@
  .navbar {
     overflow: hidden;
     background-color: #333;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     grid-column: 1 / 4;
 }
  .navbar a {
@@ -127,6 +130,7 @@
     color:#BFCBC2 ;
     text-decoration: none;
     border: #BFCBC2 solid 5px;
+    font-family: 'Open Sans Condensed';
     border-radius: 4px;
     padding: 15px;
     margin-right: 50px;
@@ -134,19 +138,19 @@
  .anchor-two {
     color:#BFCBC2 ;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     padding: 15px;
 }
  .anchor-three {
     color:#BFCBC2 ;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     padding: 15px;
 }
  footer {
     color:#BFCBC2;
     background-color: #333;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed';
     height: 8vh; 
     display: flex;
     justify-content: space-evenly;
@@ -160,4 +164,372 @@ span {
     line-height: 5px;
     margin-bottom: 0px;
     text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+    }
+    
+     html {
+        background-color:silver;
+        background-image:
+        radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+        radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+        radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+        radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+        radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+        background-size: 100px 50px;
+    }
+     #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 50vh);
+        grid-gap: 0px;
+        padding: 0px;
+        /* margin-top: 50px; */
+        align-items: center;
+    }
+     h1 {
+        padding-top: 15px;
+        font-family: 'Homemade Apple', cursive;
+        text-align: center;
+    }
+    h6 {
+        font-family: 'Open Sans Condensed';
+    }
+     hr {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+    }
+     .header { 
+        background-color: #BFCBC2;
+        opacity: 80%;
+        border: #333 5px;
+        height: 20vh;
+        grid-column: 1 / 4;
+    }
+     img {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        grid-column: 1 / 5;
+        grid-row: span 2;
+    }
+     .products {
+        background-color: black;
+        opacity: 50%;
+        height: 50px;
+    }
+     .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: 'Open Sans Condensed';
+        /* grid-column: 1 / 3; */
+    }
+     .navbar a {
+        float: left;
+        padding: 50px;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+     .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+     .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+     .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #BFCBC2;
+    }
+     .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+     .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+     .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+     .dropdown:hover .dropdown-content {
+        display: block;
+    }
+     .container {
+        position: relative;
+    }
+     .text-block {
+        position: fixed;
+        align-items: center;
+        text-align: center;
+        height: 35vh;
+        width: 100%;
+        bottom: 30%;
+        opacity: 80%;
+        background-color: black;
+        font-family: 'Homemade Apple', cursive;
+        font-size: 25px;
+        color: #BFCBC2;
+        margin-right: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+     .anchor-one {
+        color:#BFCBC2 ;
+        text-decoration: none;
+        border: #BFCBC2 solid 5px;
+        font-family: 'Open Sans Condensed';
+        border-radius: 4px;
+        padding: 15px;
+        margin-right: 50px;
+    }
+     .anchor-two {
+        color:#BFCBC2 ;
+        text-decoration: none;
+        font-family: 'Open Sans Condensed';
+        padding: 15px;
+    }
+     .anchor-three {
+        color:#BFCBC2 ;
+        text-decoration: none;
+        font-family: 'Open Sans Condensed';
+        padding: 15px;
+    }
+     footer {
+        color:#BFCBC2;
+        background-color: #333;
+        font-family: 'Open Sans Condensed';
+        height: 8vh; 
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    span {
+        display: inline-block;
+        width: 100%;
+        height: 25px;
+        vertical-align: middle;
+        line-height: 5px;
+        margin-bottom: 0px;
+        text-align: center;
+    }    
+}
+@media only screen and (max-width: 375px) {
+    * {
+        margin: 0;
+    }
+    
+     html {
+        width: 375px;
+        background-color:silver;
+        background-image:
+        radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+        radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+        radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+        radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+        radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+        background-size: 100px 50px;
+        
+    }
+     #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 50vh);
+        grid-gap: 0px;
+        padding: 0px;
+        /* margin-top: 50px; */
+        align-items: center;
+    }
+     h1 {
+        padding-top: 15px;
+        font-family: 'Homemade Apple', cursive;
+        text-align: center;
+        width: 375px;
+    }
+    h6 {
+        font-family: 'Open Sans Condensed';
+    }
+     hr {
+        width: 375px;
+        height: 80px;
+        background-color: black;
+    }
+     .header { 
+        background-color: #BFCBC2;
+        opacity: 80%;
+        border: #333 5px;
+        height: 20vh;
+        width: 375px;
+        grid-column: 1 / 5;
+    }
+     img {
+        display: grid;
+        width: 375px;
+        height: 100%;
+        opacity: 1;
+        grid-column: 1 / 5;
+        grid-row: span 2;
+    }
+     .products {
+        background-color: black;
+        opacity: 50%;
+        height: 50px;
+    }
+    .navbar {
+        width: 375px;
+        overflow: hidden;
+        background-color: #333;
+        font-family: 'Open Sans Condensed';
+        grid-column: 1 / 3;
+    }
+     .navbar a {
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly; 
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+     .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+     .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+     .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #BFCBC2;
+    }
+     .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+     .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+     .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+     .dropdown:hover .dropdown-content {
+        display: block;
+    }
+     .container {
+        position: relative;
+        width: 375px;
+    }
+     .text-block {
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        height: 26vh;
+        width: 375px;
+        bottom: 156.4px;
+        opacity: 80%;
+        background-color: black;
+        font-family: 'Homemade Apple', cursive;
+        font-size: 15px;
+        color: #BFCBC2;
+        margin-right: 70%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+     .anchor-one {
+        color:#BFCBC2 ;
+        text-decoration: none;
+        border: #BFCBC2 solid 5px;
+        font-family: 'Open Sans Condensed';
+        border-radius: 4px;
+        padding: 15px;
+        margin-right: 50px;
+    }
+     .anchor-two {
+        color:#BFCBC2 ;
+        text-decoration: none;
+        font-family: 'Open Sans Condensed';
+        padding: 15px;
+    }
+     .anchor-three {
+        color:#BFCBC2 ;
+        text-decoration: none;
+        font-family: 'Open Sans Condensed';
+        padding: 15px;
+    }
+    .text-block {
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        height: 37.2vh;
+        width: 375px;
+        bottom: 10.1%;
+        opacity: 80%;
+        background-color: black;
+        font-family: 'Homemade Apple', cursive;
+        font-size: 25px;
+        color: #BFCBC2;
+        /* margin-right: 50%; */
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+     footer {
+        display: inline-block;
+        color:#BFCBC2;
+        background-color: #333;
+        font-family: 'Open Sans Condensed';
+        height: 8vh; 
+        width: 375px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 300px;
+    }    
+    span {
+        display: inline-block;
+        width: 90%;
+        font-size: 15px;
+        height: 25px;
+        vertical-align: middle;
+        line-height: 5px;
+        margin-bottom: 40px;
+        text-align: center;
+    }    
 }
