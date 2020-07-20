@@ -117,7 +117,7 @@ h6 {
     height: 35vh;
     width: 100%;
     bottom: 30%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
     font-family: 'Homemade Apple', cursive;
     font-size: 25px;
     color: #BFCBC2;
@@ -164,7 +164,7 @@ span {
     margin-bottom: 0px;
     text-align: center;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width:768) {
     * {
         margin: 0;
     }
@@ -483,9 +483,9 @@ span {
         position: absolute;
         align-items: center;
         text-align: center;
-        height: 47.8vh;
+        height: 42.1vh;
         width: 768px;
-        bottom: 5.8%;
+        bottom: 6.5%;
         opacity: 80%;
         background-color: black;
         font-family: 'Homemade Apple', cursive;
